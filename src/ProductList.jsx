@@ -272,9 +272,7 @@ function ProductList({ onHomeClick }) {
         return CartItems ? CartItems.reduce((total, item) => total + item.quantity, 0) : 0;
     };
 
-    const handleCheckoutShopping = (e) => {
-        alert('Functionality to be added for future reference');
-    };
+    
     return (
         <div>
             <div className="navbar" style={styleObj}>
